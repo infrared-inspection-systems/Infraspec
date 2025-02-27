@@ -60,10 +60,6 @@ Terminal Commands
 
 ## File Structure
 
-Files and directories within the download:
-
-...
-Infraspec
     ├── public
     │   ├── apple-icon.png
     │   ├── favicon.png

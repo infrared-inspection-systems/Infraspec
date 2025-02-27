@@ -23,7 +23,6 @@ npm start
 # Infraspec V2 #
 
 	├── Account (custom dashboard per user)
-|
 	├── Dashboard Main # Devices status, Hardware Status, Weather, Daily Notifcations, Links #, Monthly/YTD Graphs. 
     ├── Trends # Include Temperature Graphs, AI Detection Results, Positive/Neutral/False Alarms, Export, Links #
 	├── Notications # Temperature Warnings, Notifcations, Human, Vehicle, Temperature Alarms, Fire, Object Left, Images, Color Coded, Links) #
@@ -31,14 +30,12 @@ npm start
     └── Reports
         ├── Patrol Calendar
         └── Inspection Record
-|
     ├── Device
         ├── Live View
         ├── NVR 1 (Dashboard)
         ├── Camera 1 (Dashboard)
         ├── Recordings (NVR for now)
         └── Settings
-|
     ├── Location
 	    ── Map
             ├── Country
@@ -54,8 +51,6 @@ npm start
                 ├── VTs
                 ├── Capacitors
                 └── Transformers
-|
-|
     └── Settings
 	    ├── Basic
 	    ├── Users

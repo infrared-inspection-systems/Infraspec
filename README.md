@@ -17,8 +17,10 @@ Include: Notfications that can be searched or filtered.  We would also want to h
 
 # Infraspec Install #
 
-npm install
-npm start
+Terminal Commands
+1.Download and Install NodeJs LTS version from NodeJs Official Page.
+2.Navigate to the root ./ directory of the product and run npm install to install our local dependencies.
+2 Npm Start
 
 # Infraspec V2 #
 

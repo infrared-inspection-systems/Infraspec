@@ -15,12 +15,11 @@ Include: "historical" trend data. We want this one to stand out. Colorful graphs
 
 Include: Notfications that can be searched or filtered.  We would also want to have positve, false, and neutral confirmations.  Calendar, Snapshot, Type, Date, Time, Device Name, Location, Preset.
 
-# Infraspec Install #
+## Terminal Commands
 
-Terminal Commands
-1.Download and Install NodeJs LTS version from NodeJs Official Page.
-2.Navigate to the root ./ directory of the product and run npm install to install our local dependencies.
-2 Npm Start
+1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
+2. Navigate to the root ./ directory of the product and run `npm install` to install our local dependencies.
+3. `npm start`
 
 # Infraspec V2 #
 

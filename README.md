@@ -1,7 +1,7 @@
 #### User Dashboard
 
-This will be a custom dashboard per user.  Each user will have to ability to add widgets from any of the other main dashboards to create a custom user experience.
-This could include system health check, devices online, device/shortcut links, weather, time, notifications, logs, snapshots, graphs, ups battery, and any other widgets that are available in the below menus.  Drag and drop widgets would be great here.
+Custom dashboard per user.  Each user will have to ability to add widgets from any of dashboard widgets to create a custom user experience.
+Include: system health check, devices online, device/shortcut links, weather, time, notifications, logs, snapshots, graphs, ups battery, and any other widgets that are available in the below menus.  Drag and drop widgets would be great here.
 
 #### Dashboard Main
 
@@ -13,7 +13,9 @@ Include: "historical" trend data, YTD/Monthly. We want this one to stand out. Co
 
 #### Notifications
 
-Include: Notfications that can be searched or filtered.  We would also want to have positve, false, and neutral confirmations. On the dashboard: Calendar, Snapshot, and List. List: Type, Date, Time, Device Name, Location, Preset.
+Include: Notfications that can be searched or filtered.  We would also want to have positve, false, and neutral confirmations. 
+On the dashboard: Calendar, Snapshot, Confirmation, and *List. 
+List: Type, Date, Time, Device Name, Location, Preset.
 
 ## Terminal Commands
 

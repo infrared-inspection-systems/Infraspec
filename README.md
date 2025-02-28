@@ -1,5 +1,13 @@
 # Infraspec-Material3-React Install #
 
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 npm install
 npm start
 

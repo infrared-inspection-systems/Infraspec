@@ -1,5 +1,5 @@
 # Infraspec-Material3-React Install #
-
+```mermaid
 graph TD
   %% Web Application
   A[Web Domain (Admin)] -->|Next.js Web App| B[ECS Task - Web App]
@@ -22,6 +22,8 @@ graph TD
     G
     H
   end
+```
+
 
 npm install
 npm start

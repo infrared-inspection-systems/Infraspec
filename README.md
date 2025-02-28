@@ -5,7 +5,7 @@ This could include system health check, devices online, device/shortcut links, w
 
 #### Dashboard Main
 
-Include: "live" dashboard with current health of all devices, latest notifcations, latest snapshots, recent detection, intrusion, temperature graphs (daily and weekly)  We can add long term data in the trends dashboard.  *Three buttons for confirmed alert, false alarm, and neutral.  This will be important for historical trends and future configuration.
+Include: "live" dashboard with current health of all devices, latest notifcations, latest snapshots, recent detection, intrusion, temperature graphs (daily and weekly)  We can add long term data in the trends dashboard.  *Three buttons for confirmed alert, false alarm, and neutral.  This will be important for historical trends and future configuration. Devices status, Hardware Status, Weather, Daily Notifcations, Links #, Daily/Weekly Graphs. 
 
 #### Dashboard Trends
 
@@ -24,7 +24,7 @@ Include: Notfications that can be searched or filtered.  We would also want to h
 # Infraspec V2 #
 
 	├── Account (custom dashboard per user)
-	├── Dashboard Main # Devices status, Hardware Status, Weather, Daily Notifcations, Links #, Daily/Weekly Graphs. 
+	├── Dashboard Main
     ├── Trends # YTD/Monthly Include Temperature Graphs, AI Detection Results, Positive/Neutral/False Alarms, Export, Links #
 	├── Notications # Temperature Warnings, Notifcations, Human, Vehicle, Temperature Alarms, Fire, Object Left, Images, Color Coded, Links) #
 	    └── Calendar  # Temperature Warnings, Notifcations, Human, Vehicle, Temperature Alarms, Fire, Object Left, Color Coded) #

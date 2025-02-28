@@ -1,23 +1,3 @@
-import {useRef, useEffect, useState, useMemo} from "react";
-
-// porp-types is a library for typechecking of props
-import PropTypes from "prop-types";
-
-// react-chartjs-2 components
-import {Line} from "react-chartjs-2";
-
-// @mui material components
-import Card from "@mui/material/Card";
-
-// Material Dashboard 3 PRO React helper functions
-import gradientChartLine from "assets/theme/functions/gradientChartLine";
-
-// MixedChart configurations
-import configs from "examples/Charts/MixedChart/configs";
-
-// Material Dashboard 3 PRO React base styles
-import colors from "assets/theme/base/colors";
-
 // @mui material components
 import Grid from "@mui/material/Grid";
 import Tooltip from "@mui/material/Tooltip";
@@ -172,66 +152,6 @@ function Analytics() {
                 </MDBox>
                 <MDBox>
                     <Grid container spacing={3}>
-                        <Grid item xs={12} md={6} lg={3}>
-                            <MDBox>
-                                <ComplexStatisticsCard
-                                    icon="leaderboard"
-                                    title="Positive Alerts"
-                                    count={55}
-                                    percentage={{
-                                        color: "success",
-                                        amount: "+55%",
-                                        label: "than last month",
-                                    }}
-                                />
-                            </MDBox>
-                        </Grid>
-                        <Grid item xs={12} md={6} lg={3}>
-                            <MDBox>
-                                <ComplexStatisticsCard
-                                    icon="leaderboard"
-                                    title="False Alerts"
-                                    count="46"
-                                    percentage={{
-                                        color: "error",
-                                        amount: "+3%",
-                                        label: "than last month",
-                                    }}
-                                />
-                            </MDBox>
-                        </Grid>
-                        <Grid item xs={12} md={6} lg={3}>
-                            <MDBox>
-                                <ComplexStatisticsCard
-                                    icon="leaderboard"
-                                    title="Neutral Alerts"
-                                    count="123"
-                                    percentage={{
-                                        color: "info",
-                                        amount: "+1%",
-                                        label: "than last month",
-                                    }}
-                                />
-                            </MDBox>
-                        </Grid>
-                        <Grid item xs={12} md={6} lg={3}>
-                            <MDBox>
-                                <ComplexStatisticsCard
-                                    icon="leaderboard"
-                                    title="Total Alerts"
-                                    count="315"
-                                    percentage={{
-                                        color: "success",
-                                        amount: "",
-                                        label: "Just updated",
-                                    }}
-                                />
-                            </MDBox>
-                        </Grid>
-                    </Grid>
-                </MDBox>
-                <MDBox>
-                    <Grid container spacing={3}>
                         <Grid item xs={12} md={6} lg={4}>
                             <MDBox mt={3}>
                                 <BookingCard
@@ -270,11 +190,7 @@ function Analytics() {
                         </Grid>
                     </Grid>
                 </MDBox>
-                <Grid container mt={3}>
-                    <SalesByCountry />
-                </Grid>
             </MDBox>
-            <MDBox></MDBox>
             <Grid>
                 <MDBox>
                     <MixedChart
@@ -301,7 +217,8 @@ function Analytics() {
                     />
                 </MDBox>
             </Grid>
-        </DashboardLayout>
+        <Footer />
+    </DashboardLayout>
     );
 }
 

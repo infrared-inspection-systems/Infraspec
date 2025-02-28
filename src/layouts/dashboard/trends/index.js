@@ -45,6 +45,7 @@ import mixedChartData from "layouts/pages/charts/data/mixedChartData";
 import bubbleChartData from "layouts/pages/charts/data/bubbleChartData";
 import gradientLineChartData from "layouts/pages/charts/data/gradientLineChartData";
 import verticalBarChartData from "layouts/pages/charts/data/verticalBarChartData";
+import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
 
 
 
@@ -121,6 +122,66 @@ function Widgets() {
   return (
     <DashboardLayout>
       <DashboardNavbar />
+      <MDBox>
+                    <Grid container spacing={3}>
+                        <Grid item xs={12} md={6} lg={3}>
+                            <MDBox>
+                                <ComplexStatisticsCard
+                                    icon="leaderboard"
+                                    title="Positive Alerts"
+                                    count={55}
+                                    percentage={{
+                                        color: "success",
+                                        amount: "+55%",
+                                        label: "than last month",
+                                    }}
+                                />
+                            </MDBox>
+                        </Grid>
+                        <Grid item xs={12} md={6} lg={3}>
+                            <MDBox>
+                                <ComplexStatisticsCard
+                                    icon="leaderboard"
+                                    title="False Alerts"
+                                    count="46"
+                                    percentage={{
+                                        color: "error",
+                                        amount: "+3%",
+                                        label: "than last month",
+                                    }}
+                                />
+                            </MDBox>
+                        </Grid>
+                        <Grid item xs={12} md={6} lg={3}>
+                            <MDBox>
+                                <ComplexStatisticsCard
+                                    icon="leaderboard"
+                                    title="Neutral Alerts"
+                                    count="123"
+                                    percentage={{
+                                        color: "info",
+                                        amount: "+1%",
+                                        label: "than last month",
+                                    }}
+                                />
+                            </MDBox>
+                        </Grid>
+                        <Grid item xs={12} md={6} lg={3}>
+                            <MDBox>
+                                <ComplexStatisticsCard
+                                    icon="leaderboard"
+                                    title="Total Alerts"
+                                    count="315"
+                                    percentage={{
+                                        color: "success",
+                                        amount: "",
+                                        label: "Just updated",
+                                    }}
+                                />
+                            </MDBox>
+                        </Grid>
+                    </Grid>
+                </MDBox>
       <MDBox my={3}>
         <MDBox mb={3}>
           <Grid container spacing={3}>

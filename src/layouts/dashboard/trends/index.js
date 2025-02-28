@@ -15,6 +15,12 @@ import MDBadgeDot from "components/MDBadgeDot";
 import MDButton from "components/MDButton";
 
 // Material Dashboard 3 PRO React examples
+import GradientLineChart from "examples/Charts/LineCharts/GradientLineChart";
+import VerticalBarChart from "examples/Charts/BarCharts/VerticalBarChart";
+import MixedChart from "examples/Charts/MixedChart";
+import BubbleChart from "examples/Charts/BubbleChart";
+import RadarChart from "examples/Charts/RadarChart";
+import PolarChart from "examples/Charts/PolarChart";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -31,6 +37,16 @@ import MiniInfoCard from "examples/Cards/InfoCards/MiniInfoCard";
 import ControllerCard from "examples/Cards/ControllerCard";
 import Calendar from "examples/Calendar";
 import CategoriesList from "examples/Lists/CategoriesList";
+import PieChart from "examples/Charts/PieChart";
+import DefaultDoughnutChart from "examples/Charts/DoughnutCharts/DefaultDoughnutChart";
+import radarChartData from "layouts/pages/charts/data/radarChartData";
+import polarChartData from "layouts/pages/charts/data/polarChartData";
+import mixedChartData from "layouts/pages/charts/data/mixedChartData";
+import bubbleChartData from "layouts/pages/charts/data/bubbleChartData";
+import gradientLineChartData from "layouts/pages/charts/data/gradientLineChartData";
+import verticalBarChartData from "layouts/pages/charts/data/verticalBarChartData";
+
+
 
 // Sales dashboard components
 import ChannelsChart from "layouts/dashboards/sales/components/ChannelsChart";
@@ -52,6 +68,8 @@ import defaultLineChartData from "layouts/dashboards/sales/data/defaultLineChart
 import horizontalBarChartData from "layouts/dashboards/sales/data/horizontalBarChartData";
 import salesTableData from "layouts/dashboards/sales/data/salesTableData";
 import dataTableData from "layouts/dashboards/sales/data/dataTableData";
+import defaultDoughnutChartData from "layouts/pages/charts/data/defaultDoughnutChartData";
+import pieChartData from "layouts/pages/charts/data/pieChartData";
 
 function Widgets() {
   // DefaultStatisticsCard state for the dropdown value
@@ -102,7 +120,108 @@ function Widgets() {
 
   return (
     <DashboardLayout>
-      <DashboardNavbar /> 
+      <DashboardNavbar />
+      <MDBox my={3}>
+        <MDBox mb={3}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} md={6} sx={{ lineHeight: 0 }}>
+              <MDTypography variant="h5">Charts</MDTypography>
+              <MDTypography variant="button" color="text">
+                Charts on this page use Chart.js - Simple yet flexible JavaScript charting for
+                designers & developers.
+              </MDTypography>
+            </Grid>
+          </Grid>
+        </MDBox>
+        <MDBox mb={6}>
+          <Grid container spacing={3}>
+          <Grid item xs={12} md={6}>
+              <MixedChart
+                icon={{ color: "primary", component: "auto_graph" }}
+                title="Mixed chart"
+                height="20rem"
+                description="Analytics Insights"
+                chart={mixedChartData}
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <GradientLineChart
+                icon={{ component: "show_chart" }}
+                title="Line chart with gradient"
+                height="20rem"
+                description="Visits from devices"
+                chart={gradientLineChartData}
+              />
+            </Grid>
+          </Grid>
+        </MDBox>
+        <MDBox mb={6}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} md={6}>
+              <VerticalBarChart
+                icon={{ color: "dark", component: "leaderboard" }}
+                title="Bar chart"
+                height="20rem"
+                description="Sales related to age average"
+                chart={verticalBarChartData}
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <HorizontalBarChart
+                icon={{ color: "dark", component: "splitscreen" }}
+                title="Bar chart horizontal"
+                height="20rem"
+                description="Sales related to age average"
+                chart={horizontalBarChartData}
+              />
+            </Grid>
+          </Grid>
+        </MDBox>
+        <MDBox mb={6}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} md={6}>
+              <MixedChart
+                icon={{ color: "primary", component: "auto_graph" }}
+                title="Mixed chart"
+                height="20rem"
+                description="Analytics Insights"
+                chart={mixedChartData}
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <BubbleChart
+                icon={{ color: "primary", component: "multiline_chart" }}
+                title="Bubble chart"
+                height="20rem"
+                description="Users divided by regions"
+                chart={bubbleChartData}
+              />
+            </Grid>
+          </Grid>
+        </MDBox>
+        <MDBox mb={6}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} md={6}>
+              <DefaultDoughnutChart
+                icon={{ color: "success", component: "donut_small" }}
+                title="Doughnut chart"
+                height="20rem"
+                description="Affiliates program"
+                chart={defaultDoughnutChartData}
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+            <BubbleChart
+                icon={{ color: "primary", component: "multiline_chart" }}
+                title="Bubble chart"
+                height="20rem"
+                description="Users divided by regions"
+                chart={bubbleChartData}
+              />
+            </Grid>
+          </Grid>
+        </MDBox>
+      </MDBox>
       <MDBox mb={3}>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} lg={4}>
@@ -110,12 +229,14 @@ function Widgets() {
             </Grid>
             <Grid item xs={12} sm={6} lg={8}>
               <DefaultLineChart
-                title="Revenue"
+                title="TC90 Card Camera"
                 description={
                   <MDBox display="flex" justifyContent="space-between">
                     <MDBox display="flex" ml={-1}>
-                      <MDBadgeDot color="info" size="sm" badgeContent="Facebook Ads" />
-                      <MDBadgeDot color="dark" size="sm" badgeContent="Google Ads" />
+                      <MDBadgeDot color="success" size="sm" badgeContent="Area 1" />
+                      <MDBadgeDot color="warning" size="sm" badgeContent="Area 2" />
+                      <MDBadgeDot color="primary" size="sm" badgeContent="Area 3" />
+                      <MDBadgeDot color="error" size="sm" badgeContent="Threshold" />
                     </MDBox>
                     <MDBox mt={-4} mr={-1} position="absolute" right="1.5rem">
                       <Tooltip title="See which ads perform better" placement="left" arrow>

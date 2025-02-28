@@ -36,6 +36,7 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 3 PRO React layouts
+import Trends from "layouts/dashboard/trends";
 import Analytics from "layouts/dashboards/analytics";
 import Sales from "layouts/dashboards/sales";
 import NewUser from "layouts/pages/users/new-user";
@@ -97,7 +98,7 @@ const routes = [
     key: "trends",
     route: "dashboard/trends",
     icon: <Icon fontSize="small">assessment</Icon>,
-    component: <Sales />,
+    component: <Trends />,
     noCollapse: true,
   },
   {

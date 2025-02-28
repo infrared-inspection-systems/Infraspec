@@ -321,11 +321,11 @@ function Invoice() {
                 <Grid container>
                   <Grid item xs={12} lg={5}>
                     <MDTypography variant="h5" fontWeight="medium">
-                      Substation Report
+                      site Report
                     </MDTypography>
                     <MDBox mt={1} mb={2} lineHeight={0}>
                       <MDTypography variant="button" color={darkMode ? "text" : "secondary"}>
-                        Substation Supervisor
+                        site Supervisor
                       </MDTypography>
                     </MDBox>
                     <MDTypography
@@ -336,7 +336,7 @@ function Invoice() {
                     >
                       email:{" "}
                       <MDTypography component="span" variant="h6" fontWeight="regular">
-                        supervisor@substation.com
+                        supervisor@site.com
                       </MDTypography>
                     </MDTypography>
                   </Grid>

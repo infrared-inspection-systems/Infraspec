@@ -43,7 +43,7 @@ function ProductInfo() {
         <MDBox mt={1}>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6}>
-              <FormField type="text" label="Name" defaultValue="Substation 1" />
+              <FormField type="text" label="Name" defaultValue="site 1" />
             </Grid>
             <Grid item xs={12} sm={6}>
               <FormField type="number" label="Weight" defaultValue={2} />

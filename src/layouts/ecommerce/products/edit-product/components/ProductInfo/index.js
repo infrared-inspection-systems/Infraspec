@@ -53,7 +53,7 @@ function ProductInfo() {
         <MDBox mt={1}>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={3}>
-              <FormField type="text" label="City" defaultValue="Fontana" />
+              <FormField type="text" label="City" defaultValue="city 1" />
             </Grid>
             <Grid item xs={12} sm={3}>
               <FormField type="text" label="Price" defaultValue="$90" />

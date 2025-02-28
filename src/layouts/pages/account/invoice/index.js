@@ -62,7 +62,7 @@ function Invoice() {
                       mb={1}
                     />
                     <MDTypography variant="h6" fontWeight="medium">
-                      Falcon Ridge, Fontana, CA
+                      site 1, city 1, CA
                     </MDTypography>
                     <MDBox mt={1} mb={2}>
                       <MDTypography

@@ -147,7 +147,7 @@ function Widgets() {
               <HorizontalBarChart title="Sales by age" chart={horizontalBarChartData} />
             </Grid>
             <Grid item xs={12} lg={4}>
-              <SalesTable title="Sales by Country" rows={salesTableData} />
+              <SalesTable title="Country" rows={salesTableData} />
             </Grid>
           </Grid>
         </MDBox>

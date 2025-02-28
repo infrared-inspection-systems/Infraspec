@@ -21,24 +21,24 @@ import BR from "assets/images/icons/flags/US.png";
 
 const salesTableData = [
   {
-    site: [US, "falcon ridge"],
+    site: [US, "site 1"],
     sales: 2500,
     value: "$230,900",
     bounce: "29.9%",
   },
   {
-    site: [DE, "ordway"],
+    site: [DE, "site 3"],
     sales: "3.900",
     value: "$440,000",
     bounce: "40.22%",
   },
   {
-    site: [GB, "merced"],
+    site: [GB, "city 2"],
     sales: "1.400",
     value: "$190,700",
     bounce: "23.44%",
   },
-  { site: [BR, "daisy"], sales: 562, value: "$143,960", bounce: "32.14%" },
+  { site: [BR, "site 2"], sales: 562, value: "$143,960", bounce: "32.14%" },
 ];
 
 export default salesTableData;

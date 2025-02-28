@@ -37,14 +37,14 @@ function SalesByCountry() {
     <Card sx={{ width: "100%" }}>
       <MDBox>
         <MDTypography variant="h6" sx={{ mt: 2, ml: 2 }}>
-          Sales by Country
+          Country
         </MDTypography>
         <MDTypography
           variant="body2"
           color="text"
           sx={{ fontSize: "14px", mb: 1, ml: 2 }}
         >
-          Check the sales, value and bounce rate by country.
+          Site map by country.
         </MDTypography>
       </MDBox>
       <MDBox p={2}>

@@ -220,8 +220,8 @@ function Analytics() {
                   image={booking1}
                   title="Mile PTZ 50mm"
                   description='Threshold Alarm'
-                  price="Reactor/Area 3"
-                  location="Falcon Ridge, Fontana"
+                  price="Preset 1/Area 3"
+                  location="site 1, city 1"
                   action={actionButtons}
                 />
               </MDBox>
@@ -232,8 +232,8 @@ function Analytics() {
                   image={booking2}
                   title="Mini Left PTZ 25mm"
                   description='Fire Detected'
-                  price="Preset 1/Area 0"
-                  location="Daisy, Merced"
+                  price="Preset 2/Area 0"
+                  location="site 2, city 2"
                   action={actionButtons}
                 />
               </MDBox>
@@ -245,7 +245,7 @@ function Analytics() {
                   title="Mini Right PTZ 25mm"
                   description='Intrusion'
                   price="Parking Lot/Area 0"
-                  location="Ordway, Long Beach"
+                  location="site 3, city 3"
                   action={actionButtons}
                 />
               </MDBox>

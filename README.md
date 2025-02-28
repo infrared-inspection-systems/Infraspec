@@ -14,8 +14,7 @@ Include: "historical" trend data, YTD/Monthly. We want this one to stand out. Co
 #### Notifications
 
 Include: Notfications that can be searched or filtered.  We would also want to have positve, false, and neutral confirmations. 
-On the dashboard: Calendar, Snapshot, Confirmation, and *List. 
-List: Type, Date, Time, Device Name, Location, Preset.
+On the dashboard: Calendar, Snapshot, Confirmation, and *List.  *Type, Date, Time, Device Name, Location, Preset.
 
 ## Terminal Commands
 

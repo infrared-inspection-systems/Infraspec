@@ -13,7 +13,7 @@ Include: "historical" trend data. We want this one to stand out. Colorful graphs
 
 #### Notifications
 
-Include: Notfications that can be searched or filtered.  We would also want to have positve, false, and neutral confirmations.  Calendar, Snapshot, Type, Date, Time, Device Name, Location, Preset.
+Include: Notfications that can be searched or filtered.  We would also want to have positve, false, and neutral confirmations. On the dashboard: Calendar, Snapshot, and List. List: Type, Date, Time, Device Name, Location, Preset.
 
 ## Terminal Commands
 

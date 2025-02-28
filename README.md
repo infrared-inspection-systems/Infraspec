@@ -1,27 +1,11 @@
 # Infraspec-Material3-React Install #
 ```mermaid
-graph TD;
-  %% Web Application
-  A[Web Domain (Admin)] -->|Next.js Web App| B[ECS Task - Web App];
-  B -->|API Calls| C[ECS Task - API];
-  C -->|Handles Requests| D[API Domain (Nest.js API)];
+flowchart LR
 
-  %% VPN Connection
-  C -->|Triggers VPN Connection| E[ECS Task - VPN Client];
-  E -->|OpenVPN Client| F[Power Stations (Multiple Locations)];
-
-  %% Database and Logging
-  C -->|Stores Data| G[(PostgreSQL DB)];
-  E -->|Logs Connection Events| H[(VPN Access Logs - S3/CloudWatch)];
-
-  %% AWS Infrastructure
-  subgraph AWS Infrastructure
-    B;
-    C;
-    E;
-    G;
-    H;
-  end;
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
 ```
 
 

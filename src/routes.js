@@ -38,19 +38,11 @@ Coded by www.creative-tim.com
 // Material Dashboard 3 PRO React layouts
 import Trends from "layouts/dashboard/trends";
 import Main from "layouts/dashboard/main";
-import NewUser from "layouts/pages/users/new-user";
 import Invoice from "layouts/pages/account/invoice";
-import Widgets from "layouts/pages/widgets";
 import Charts from "layouts/pages/charts";
-import Kanban from "layouts/applications/kanban";
-import Wizard from "layouts/applications/wizard";
-import DataTables from "layouts/applications/data-tables";
 import Calendar from "layouts/applications/calendar";
 import NewProduct from "layouts/ecommerce/products/new-product";
 import EditProduct from "layouts/ecommerce/products/edit-product";
-import ProductPage from "layouts/ecommerce/products/product-page";
-import OrderList from "layouts/ecommerce/orders/order-list";
-import OrderDetails from "layouts/ecommerce/orders/order-details";
 import SignInBasic from "layouts/authentication/sign-in/basic";
 import SignInCover from "layouts/authentication/sign-in/cover";
 import SignInIllustration from "layouts/authentication/sign-in/illustration";
@@ -128,9 +120,33 @@ const routes = [
     type: "collapse",
     name: "NVR",
     key: "nvr",
-    href: "http://172.16.1.5",
     icon: <Icon fontSize="small">devices</Icon>,
-    noCollapse: true,
+    collapse: [
+      {
+        type: "collapse",
+        name: "NVR 1",
+        key: "nvr",
+        href: "http://172.16.1.5",
+        icon: <Icon fontSize="small">devices</Icon>,
+        noCollapse: true,
+      },
+      {
+        type: "collapse",
+        name: "NVR 2",
+        key: "nvr",
+        href: "http://172.16.1.5",
+        icon: <Icon fontSize="small">devices</Icon>,
+        noCollapse: true,
+      },
+      {
+        type: "collapse",
+        name: "NVR 3",
+        key: "nvr",
+        href: "http://172.16.1.5",
+        icon: <Icon fontSize="small">devices</Icon>,
+        noCollapse: true,
+      },
+    ],
   },
   {
     type: "collapse",
@@ -140,21 +156,21 @@ const routes = [
     collapse: [
       {
         type: "collapse",
-        name: "Mile Thermal",
-        key: "mile",
+        name: "Camera 1",
+        key: "camera",
         href: "http://172.16.1.151",
         icon: <Icon fontSize="small">camera</Icon>,
         noCollapse: true,
       },
       {
-        name: "Mini Left Optical",
-        key: "mini",
+        name: "Camera 2",
+        key: "camera",
         href: "http://172.16.1.154",
         icon: <Icon fontSize="small">camera</Icon>,
       },
       {
-        name: "TC-90 Fixed",
-        key: "tc90",
+        name: "Camer 3",
+        key: "camera",
         href: "http://172.16.1.158",
         icon: <Icon fontSize="small">camera</Icon>,
       },

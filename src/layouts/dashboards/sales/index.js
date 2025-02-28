@@ -101,7 +101,7 @@ function Sales() {
             <Grid item xs={12} sm={4}>
               <DefaultStatisticsCard
                 title="sales"
-                count="$230,220"
+                count="$23"
                 percentage={{
                   color: "success",
                   value: "+55%",
@@ -116,7 +116,7 @@ function Sales() {
             </Grid>
             <Grid item xs={12} sm={4}>
               <DefaultStatisticsCard
-                title="customers"
+                title="human detection"
                 count="3.200"
                 percentage={{
                   color: "success",
@@ -133,7 +133,7 @@ function Sales() {
             <Grid item xs={12} sm={4}>
               <DefaultStatisticsCard
                 title="avg. revenue"
-                count="$1.200"
+                count="120"
                 percentage={{
                   color: "secondary",
                   value: "+$213",

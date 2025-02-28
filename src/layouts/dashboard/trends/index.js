@@ -149,7 +149,7 @@ function Widgets() {
                 icon={{ component: "show_chart" }}
                 title="Line chart with gradient"
                 height="20rem"
-                description="Visits from devices"
+                description="notifications by devices"
                 chart={gradientLineChartData}
               />
             </Grid>
@@ -157,13 +157,13 @@ function Widgets() {
         </MDBox>
         <MDBox mb={6}>
           <Grid container spacing={3}>
-            <Grid item xs={12} md={6}>
-              <VerticalBarChart
-                icon={{ color: "dark", component: "leaderboard" }}
-                title="Bar chart"
+          <Grid item xs={12} md={6}>
+              <HorizontalBarChart
+                icon={{ color: "dark", component: "splitscreen" }}
+                title="Bar chart horizontal"
                 height="20rem"
-                description="Sales related to age average"
-                chart={verticalBarChartData}
+                description="Temperature related to age average"
+                chart={horizontalBarChartData}
               />
             </Grid>
             <Grid item xs={12} md={6}>
@@ -171,30 +171,8 @@ function Widgets() {
                 icon={{ color: "dark", component: "splitscreen" }}
                 title="Bar chart horizontal"
                 height="20rem"
-                description="Sales related to age average"
+                description="Temperature related to age average"
                 chart={horizontalBarChartData}
-              />
-            </Grid>
-          </Grid>
-        </MDBox>
-        <MDBox mb={6}>
-          <Grid container spacing={3}>
-            <Grid item xs={12} md={6}>
-              <MixedChart
-                icon={{ color: "primary", component: "auto_graph" }}
-                title="Mixed chart"
-                height="20rem"
-                description="Analytics Insights"
-                chart={mixedChartData}
-              />
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <BubbleChart
-                icon={{ color: "primary", component: "multiline_chart" }}
-                title="Bubble chart"
-                height="20rem"
-                description="Users divided by regions"
-                chart={bubbleChartData}
               />
             </Grid>
           </Grid>
@@ -215,7 +193,7 @@ function Widgets() {
                 icon={{ color: "primary", component: "multiline_chart" }}
                 title="Bubble chart"
                 height="20rem"
-                description="Users divided by regions"
+                description="Site divided by regions"
                 chart={bubbleChartData}
               />
             </Grid>
@@ -261,10 +239,10 @@ function Widgets() {
           <MDBox mb={3}>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={8}>
-              <HorizontalBarChart title="Sales by age" chart={horizontalBarChartData} />
+              <HorizontalBarChart title="Temperature Diference" chart={horizontalBarChartData} />
             </Grid>
             <Grid item xs={12} lg={4}>
-              <SalesTable title="Country" rows={salesTableData} />
+              <SalesTable title="Site 1" rows={salesTableData} />
             </Grid>
           </Grid>
         </MDBox>
@@ -272,7 +250,7 @@ function Widgets() {
           <Grid container spacing={3}>
             <Grid item xs={12} sm={4}>
               <DefaultStatisticsCard
-                title="sales"
+                title="site"
                 count="$230,220"
                 percentage={{
                   color: "success",
@@ -288,7 +266,7 @@ function Widgets() {
             </Grid>
             <Grid item xs={12} sm={4}>
               <DefaultStatisticsCard
-                title="customers"
+                title="human detection"
                 count="3.200"
                 percentage={{
                   color: "success",

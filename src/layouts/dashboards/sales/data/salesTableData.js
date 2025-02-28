@@ -23,18 +23,18 @@ const salesTableData = [
   {
     site: [US, "site 1"],
     sales: 2500,
-    value: "$230,900",
+    value: "23",
     bounce: "29.9%",
   },
   {
     site: [DE, "site 2"],
     sales: "3.900",
-    value: "$440,000",
+    value: "28",
     bounce: "40.22%",
   },
   {
     site: [GB, "site 3"],
-    sales: "1.400",
+    sales: "40",
     value: "$190,700",
     bounce: "23.44%",
   },

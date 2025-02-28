@@ -9,7 +9,7 @@ Include: "live" dashboard with current health of all devices, latest notifcation
 
 #### Dashboard Trends
 
-Include: "historical" trend data, YTD/Monthly. We want this one to stand out. Colorful graphs to show how the system is running overtime.  Trends of intrusion, fire detection, AI. Temperature graphs will show temperature differences between areas and targets.  Temperature threshold graph will show how close each preset is getting to the set threshold.  Will can also have a mini thermal map with details on each "site" and avg. temperatures taken at each.
+Include: "historical" trend data, YTD/Monthly. We want this one to stand out. Colorful graphs to show how the system is running overtime.  Trends of intrusion, fire detection, AI. Temperature graphs will show temperature differences between areas and targets.  Temperature threshold graph will show how close each preset is getting to the set threshold. Mini thermal map with details on each "site" and avg. temperatures taken at each.
 
 #### Notifications
 

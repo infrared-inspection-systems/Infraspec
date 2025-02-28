@@ -37,11 +37,8 @@ Coded by www.creative-tim.com
 
 // Material Dashboard 3 PRO React layouts
 import Trends from "layouts/dashboard/trends";
-import Analytics from "layouts/dashboards/analytics";
-import Sales from "layouts/dashboards/sales";
+import Main from "layouts/dashboard/main";
 import NewUser from "layouts/pages/users/new-user";
-import Settings from "layouts/pages/account/settings";
-import Billing from "layouts/pages/account/billing";
 import Invoice from "layouts/pages/account/invoice";
 import Timeline from "layouts/pages/projects/timeline";
 import PricingPage from "layouts/pages/pricing-page";
@@ -89,7 +86,7 @@ const routes = [
     key: "dashboard",
     route: "/dashboard/",
     icon: <Icon fontSize="small">dashboard</Icon>,
-    component: <Analytics />,
+    component: <Main />,
     noCollapse: true,
   },
   {

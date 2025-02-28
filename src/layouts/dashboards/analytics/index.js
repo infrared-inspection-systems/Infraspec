@@ -120,7 +120,7 @@ function Analytics() {
             <Grid item xs={12} md={6} lg={4}>
               <MDBox mb={3}>
                 <ReportsBarChart
-                  color="success"
+                  color="info"
                   title="people"
                   description="detected"
                   date="30 sec ago"

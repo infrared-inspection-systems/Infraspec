@@ -43,6 +43,9 @@ import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatist
 import BookingCard from "examples/Cards/BookingCard";
 import VerticalBarChart from "examples/Charts/BarCharts/VerticalBarChart";
 import MixedChart from "examples/Charts/MixedChart";
+import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCard";
+import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
+import MasterCard from "examples/Cards/MasterCard";
 
 // Anaytics dashboard components
 import SalesByCountry from "layouts/dashboards/analytics/components/SalesByCountry";
@@ -88,6 +91,59 @@ function Analytics() {
   return (
     <DashboardLayout>
       <DashboardNavbar />
+      <MDBox mb={3} ml={1}>
+          <MDTypography variant="h4" fontWeight="bold">
+            Hardware Monitoring
+          </MDTypography>
+        </MDBox>
+      <MDBox mb={3}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} md={6} lg={3}>
+              <MDBox mb={3}>
+                <MiniStatisticsCard
+                  title={{ text: "CPU" }}
+                  count="99 %"
+                  icon={{ color: "info", component: "desktop_mac" }}
+                  direction="left"
+                />
+              </MDBox>
+              <MiniStatisticsCard
+                title={{ text: "music volume" }}
+                count="15/100"
+                icon={{ color: "info", component: "volume_down" }}
+                direction="left"
+              />
+            </Grid>
+            <Grid
+              item
+              xs={12}
+              sm={3}
+              lg={5}
+              display="flex"
+              flexDirection={{ xs: "column", sm: "row" }}
+            >
+              <MDBox width="100%" mr={{ xs: 0, sm: 3 }} mb={{ xs: 3, sm: 0 }}>
+                <MiniStatisticsCard
+                  title={{ text: "battery UPS" }}
+                  count="99 %"
+                  icon={{ color: "info", component: "battery_charging_full" }}
+                  direction="left"
+                />
+              </MDBox>
+              <MDBox width="100%">
+                <MiniStatisticsCard
+                  title={{ text: "battery UPS" }}
+                  count="99 %"
+                  icon={{ color: "info", component: "battery_charging_full" }}
+                  direction="left"
+                />
+              </MDBox>
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <MasterCard number={4562112245947852} holder="jack peterson" expires="11/22" />
+            </Grid>
+          </Grid>
+        </MDBox>
       <MDBox pb={3}>
         <MDBox mb={3} ml={1}>
           <MDTypography variant="h4" fontWeight="bold">

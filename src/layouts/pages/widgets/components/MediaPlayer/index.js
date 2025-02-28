@@ -47,10 +47,10 @@ function MediaPlayer() {
     >
       <MDBox p={3} position="relative" lineHeight={0}>
         <MDTypography variant="h5" color="white" fontWeight="medium">
-          Some Kind Of Blues
+          Mile 50mm PTZ
         </MDTypography>
         <MDTypography variant="button" color="white">
-          Deftones
+          site 1
         </MDTypography>
         <MDBox display="flex" mt={3} pt={1}>
           <MDBox display="flex" alignItems="center" justifyContent="center">

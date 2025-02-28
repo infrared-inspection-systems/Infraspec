@@ -215,16 +215,31 @@ function Analytics() {
         <MDBox>
           <Grid container spacing={3}>
             <Grid item xs={12} md={6} lg={4}>
-              <MDBox mt={3}>
-                <BookingCard
-                  image={booking1}
-                  title="Mile PTZ 50mm"
-                  description='Threshold Alarm'
-                  price="Preset 1/Area 3"
-                  location="site 1, city 1"
-                  action={actionButtons}
-                />
-              </MDBox>
+            <MDButton
+              variant="outlined"
+              size="large"
+              circular
+              iconOnly
+              sx={mediaPlayerButtonStyles}
+            >
+              <Icon>skip_previous</Icon>
+            </MDButton>
+            <MDButton
+              variant="outlined"
+              size="large"
+              circular
+              iconOnly
+              sx={mediaPlayerButtonStyles}
+            >
+              <Icon>play_arrow</Icon>
+            </MDButton>
+            <MDButton
+              variant="outlined"
+              size="large"
+              circular
+              iconOnly
+              sx={mediaPlayerButtonStyles}
+            >
             </Grid>
             <Grid item xs={12} md={6} lg={4}>
               <MDBox mt={3}>

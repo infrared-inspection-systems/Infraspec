@@ -39,8 +39,8 @@ function ChannelsChart() {
   return (
     <Card sx={{ height: "100%" }}>
       <MDBox display="flex" justifyContent="space-between" alignItems="center" pt={2} px={2}>
-        <MDTypography variant="h6">Notifcations</MDTypography>
-        <Tooltip title="See traffic channels" placement="bottom" arrow>
+        <MDTypography variant="h6">TC90 Card Camera</MDTypography>
+        <Tooltip title="info" placement="bottom" arrow>
           <MDButton variant="outlined" color="secondary" size="small" circular iconOnly>
             <Icon>priority_high</Icon>
           </MDButton>

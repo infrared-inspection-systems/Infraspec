@@ -9,7 +9,7 @@ flowchart LR
 
   %% VPN Connection
   C -->|Triggers VPN Connection| E[ECS Task - VPN Client]
-  E -->|Establishes VPN| F{Multiple Power Stations}
+  E -->|Establishes VPN| F[Multiple Power Stations]
   F -->|VPN Tunnel| G[Station 1]
   F -->|VPN Tunnel| H[Station 2]
   F -->|VPN Tunnel| I[Station N]
@@ -23,7 +23,7 @@ flowchart LR
   E -->|Logs Connection Events| M[(VPN Access Logs - S3/CloudWatch)]
 
   %% AWS Infrastructure
-  subgraph AWS Infrastructure
+  subgraph "AWS Infrastructure"
     B
     C
     E

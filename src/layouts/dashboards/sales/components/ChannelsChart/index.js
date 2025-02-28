@@ -79,8 +79,7 @@ function ChannelsChart() {
       >
         <MDBox width={{ xs: "100%", sm: "60%" }} lineHeight={1}>
           <MDTypography variant="button" color="text" fontWeight="light">
-            More than <strong>1,200,000</strong> sales are made using referral marketing, and{" "}
-            <strong>700,000</strong> are from social media.
+            <strong>Alert type per site</strong>
           </MDTypography>
         </MDBox>
         <MDBox width={{ xs: "100%", sm: "40%" }} textAlign="right" mt={{ xs: 2, sm: "auto" }}>

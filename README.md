@@ -27,7 +27,7 @@ On the dashboard: Calendar, Snapshot, Confirmation, and *List.  *Type, Date, Tim
 	├── Account (custom dashboard per user)
 	├── Dashboard Main
     ├── Trends
-	├── Notications # Temperature Warnings, Notifcations, Human, Vehicle, Temperature Alarms, Fire, Object Left, Images, Color Coded, Links) #
+	├── Notications
 	    └── Calendar  # Temperature Warnings, Notifcations, Human, Vehicle, Temperature Alarms, Fire, Object Left, Color Coded) #
     └── Reports
         ├── Patrol Calendar

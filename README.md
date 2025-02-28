@@ -2,10 +2,35 @@
 ```mermaid
 flowchart LR
 
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+  %% Web Application
+  A[Web Domain (Admin)] -->|Next.js Web App| B[ECS Task - Web App]
+  B -->|API Calls| C[ECS Task - API]
+  C -->|Handles Requests| D[API Domain (Nest.js API)]
+
+  %% VPN Connection
+  C -->|Triggers VPN Connection| E[ECS Task - VPN Client]
+  E -->|Establishes VPN| F{Multiple Power Stations}
+  F -->|VPN Tunnel| G[Station 1]
+  F -->|VPN Tunnel| H[Station 2]
+  F -->|VPN Tunnel| I[Station N]
+
+  %% Video Streaming
+  C -->|Generates Video Feed URL| J[go2rtc API]
+  J -->|Streams Camera Feed| K[Front-End Web App]
+
+  %% Database and Logging
+  C -->|Stores Data| L[(PostgreSQL DB)]
+  E -->|Logs Connection Events| M[(VPN Access Logs - S3/CloudWatch)]
+
+  %% AWS Infrastructure
+  subgraph AWS Infrastructure
+    B
+    C
+    E
+    J
+    L
+    M
+  end
 ```
 
 

@@ -101,7 +101,7 @@ function Sales() {
             <Grid item xs={12} sm={4}>
               <DefaultStatisticsCard
                 title="sales"
-                count="$230,220"
+                count="$23"
                 percentage={{
                   color: "success",
                   value: "+55%",
@@ -116,7 +116,7 @@ function Sales() {
             </Grid>
             <Grid item xs={12} sm={4}>
               <DefaultStatisticsCard
-                title="customers"
+                title="human detection"
                 count="3.200"
                 percentage={{
                   color: "success",
@@ -133,7 +133,7 @@ function Sales() {
             <Grid item xs={12} sm={4}>
               <DefaultStatisticsCard
                 title="avg. revenue"
-                count="$1.200"
+                count="120"
                 percentage={{
                   color: "secondary",
                   value: "+$213",
@@ -159,8 +159,10 @@ function Sales() {
                 description={
                   <MDBox display="flex" justifyContent="space-between">
                     <MDBox display="flex" ml={-1}>
-                      <MDBadgeDot color="info" size="sm" badgeContent="Facebook Ads" />
-                      <MDBadgeDot color="dark" size="sm" badgeContent="Google Ads" />
+                      <MDBadgeDot color="success" size="sm" badgeContent="Preset 1" />
+                      <MDBadgeDot color="warning" size="sm" badgeContent="Preset 2" />
+                      <MDBadgeDot color="primary" size="sm" badgeContent="Preset 3" />
+                      <MDBadgeDot color="error" size="sm" badgeContent="Preset 5" />
                     </MDBox>
                     <MDBox mt={-4} mr={-1} position="absolute" right="1.5rem">
                       <Tooltip title="See which ads perform better" placement="left" arrow>

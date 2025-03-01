@@ -81,7 +81,7 @@ function Widgets() {
             <Grid item xs={12} md={6} lg={3}>
               <MDBox mb={3}>
                 <MiniStatisticsCard
-                  title={{ text: "battery health" }}
+                  title={{ text: "battery UPS" }}
                   count="99 %"
                   icon={{ color: "info", component: "battery_charging_full" }}
                   direction="left"
@@ -106,7 +106,7 @@ function Widgets() {
                 <DefaultInfoCard
                   icon="account_balance"
                   title="salary"
-                  description="Belong Interactive"
+                  description="Site"
                   value="+$2000"
                 />
               </MDBox>

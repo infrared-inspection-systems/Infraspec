@@ -39,8 +39,8 @@ function ChannelsChart() {
   return (
     <Card sx={{ height: "100%" }}>
       <MDBox display="flex" justifyContent="space-between" alignItems="center" pt={2} px={2}>
-        <MDTypography variant="h6">Channels</MDTypography>
-        <Tooltip title="See traffic channels" placement="bottom" arrow>
+        <MDTypography variant="h6">TC90 Card Camera</MDTypography>
+        <Tooltip title="info" placement="bottom" arrow>
           <MDButton variant="outlined" color="secondary" size="small" circular iconOnly>
             <Icon>priority_high</Icon>
           </MDButton>
@@ -54,16 +54,13 @@ function ChannelsChart() {
           <Grid item xs={5}>
             <MDBox pr={1}>
               <MDBox mb={1}>
-                <MDBadgeDot color="info" size="sm" badgeContent="Facebook" />
+                <MDBadgeDot color="success" size="sm" badgeContent="Positive" />
               </MDBox>
               <MDBox mb={1}>
-                <MDBadgeDot color="primary" size="sm" badgeContent="Direct" />
+                <MDBadgeDot color="info" size="sm" badgeContent="Neutral" />
               </MDBox>
               <MDBox mb={1}>
-                <MDBadgeDot color="dark" size="sm" badgeContent="Organic" />
-              </MDBox>
-              <MDBox mb={1}>
-                <MDBadgeDot color="secondary" size="sm" badgeContent="Referral" />
+                <MDBadgeDot color="error" size="sm" badgeContent="False" />
               </MDBox>
             </MDBox>
           </Grid>
@@ -79,11 +76,11 @@ function ChannelsChart() {
       >
         <MDBox width={{ xs: "100%", sm: "60%" }} lineHeight={1}>
           <MDTypography variant="button" color="text" fontWeight="light">
-            <strong>Alert type per site</strong>
+            <strong>Confirmed notifcations</strong>
           </MDTypography>
         </MDBox>
         <MDBox width={{ xs: "100%", sm: "40%" }} textAlign="right" mt={{ xs: 2, sm: "auto" }}>
-          <MDButton color={darkMode ? "white" : "light"}>read more</MDButton>
+          <MDButton color={darkMode ? "white" : "light"}>Notifcations</MDButton>
         </MDBox>
       </MDBox>
     </Card>

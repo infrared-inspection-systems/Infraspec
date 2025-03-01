@@ -38,22 +38,11 @@ Coded by www.creative-tim.com
 // Material Dashboard 3 PRO React layouts
 import Trends from "layouts/dashboard/trends";
 import Main from "layouts/dashboard/main";
-import NewUser from "layouts/pages/users/new-user";
 import Invoice from "layouts/pages/account/invoice";
-import Timeline from "layouts/pages/projects/timeline";
-import PricingPage from "layouts/pages/pricing-page";
-import Widgets from "layouts/pages/widgets";
 import Charts from "layouts/pages/charts";
-import Notifications from "layouts/pages/notifications";
-import Kanban from "layouts/applications/kanban";
-import Wizard from "layouts/applications/wizard";
-import DataTables from "layouts/applications/data-tables";
 import Calendar from "layouts/applications/calendar";
 import NewProduct from "layouts/ecommerce/products/new-product";
 import EditProduct from "layouts/ecommerce/products/edit-product";
-import ProductPage from "layouts/ecommerce/products/product-page";
-import OrderList from "layouts/ecommerce/orders/order-list";
-import OrderDetails from "layouts/ecommerce/orders/order-details";
 import SignInBasic from "layouts/authentication/sign-in/basic";
 import SignInCover from "layouts/authentication/sign-in/cover";
 import SignInIllustration from "layouts/authentication/sign-in/illustration";
@@ -131,9 +120,33 @@ const routes = [
     type: "collapse",
     name: "NVR",
     key: "nvr",
-    href: "http://172.16.1.5",
     icon: <Icon fontSize="small">devices</Icon>,
-    noCollapse: true,
+    collapse: [
+      {
+        type: "collapse",
+        name: "NVR 1",
+        key: "nvr",
+        href: "http://172.16.1.5",
+        icon: <Icon fontSize="small">devices</Icon>,
+        noCollapse: true,
+      },
+      {
+        type: "collapse",
+        name: "NVR 2",
+        key: "nvr",
+        href: "http://172.16.1.5",
+        icon: <Icon fontSize="small">devices</Icon>,
+        noCollapse: true,
+      },
+      {
+        type: "collapse",
+        name: "NVR 3",
+        key: "nvr",
+        href: "http://172.16.1.5",
+        icon: <Icon fontSize="small">devices</Icon>,
+        noCollapse: true,
+      },
+    ],
   },
   {
     type: "collapse",
@@ -143,21 +156,21 @@ const routes = [
     collapse: [
       {
         type: "collapse",
-        name: "Mile Thermal",
-        key: "mile",
+        name: "Camera 1",
+        key: "camera",
         href: "http://172.16.1.151",
         icon: <Icon fontSize="small">camera</Icon>,
         noCollapse: true,
       },
       {
-        name: "Mini Left Optical",
-        key: "mini",
+        name: "Camera 2",
+        key: "camera",
         href: "http://172.16.1.154",
         icon: <Icon fontSize="small">camera</Icon>,
       },
       {
-        name: "TC-90 Fixed",
-        key: "tc90",
+        name: "Camer 3",
+        key: "camera",
         href: "http://172.16.1.158",
         icon: <Icon fontSize="small">camera</Icon>,
       },
@@ -197,144 +210,6 @@ const routes = [
         key: "site-3",
         route: "/site/site-3",
         component: <EditProduct />,
-      },
-    ],
-  },
-  { type: "divider", key: "divider-0" },
-  { type: "title", title: "Save Code", key: "title-pages" },
-  /*{
-    type: "collapse",
-    name: "Account",
-    key: "account",
-    icon: <Icon fontSize="small">person</Icon>,
-    collapse: [
-      {
-        name: "Settings",
-        key: "settings",
-        route: "/pages/account/settings",
-        component: <Settings />,
-      },
-      {
-        name: "Billing",
-        key: "billing",
-        route: "/pages/account/billing",
-        component: <Billing />,
-      },
-      {
-        name: "Invoice",
-        key: "invoice",
-        route: "/pages/account/invoice",
-        component: <Invoice />,
-      },
-    ],
-  },*/
-  {
-    type: "collapse",
-    name: "Needs Integration",
-    key: "template",
-    icon: <Icon fontSize="small">apps</Icon>,
-    collapse: [
-      {
-        name: "Widgets",
-        key: "widgets",
-        route: "/pages/widgets",
-        component: <Widgets />,
-      },
-      {
-        name: "Widgets",
-        key: "widgets",
-        route: "/pages/widgets",
-        component: <Widgets />,
-      },
-      {
-        name: "settings",
-        key: "settings",
-        route: "/pages/account/settings",
-        component: <Kanban />,
-      },
-      {
-        name: "billing",
-        key: "billing",
-        route: "/pages/account/billing",
-        component: <DataTables />,
-      },
-      {
-        name: "invoice",
-        key: "invoice",
-        route: "/pages/account/invoice",
-        component: <EditProduct />,
-      },
-      {
-        name: "New User",
-        key: "new-user",
-        route: "/pages/users/new-user",
-        component: <NewUser />,
-      },
-      {
-        name: "Kanban",
-        key: "kanban",
-        route: "/applications/kanban",
-        component: <Kanban />,
-      },
-      {
-        name: "Wizard",
-        key: "wizard",
-        route: "/applications/wizard",
-        component: <Wizard />,
-      },
-      {
-        name: "Data Tables",
-        key: "data-tables",
-        route: "/applications/data-tables",
-        component: <DataTables />,
-      },
-      {
-        name: "Calendar",
-        key: "calendar",
-        route: "/applications/calendar",
-        component: <Calendar />,
-      },
-      {
-        name: "Products",
-        key: "products",
-        collapse: [
-          {
-            name: "New Product",
-            key: "new-product",
-            route: "/ecommerce/products/new-product",
-            component: <NewProduct />,
-          },
-          {
-            name: "Edit Product",
-            key: "edit-product",
-            route: "/ecommerce/products/edit-product",
-            component: <EditProduct />,
-          },
-          {
-            name: "Product Page",
-            key: "product-page",
-            route: "/ecommerce/products/product-page",
-            component: <ProductPage />,
-          },
-        ],
-      },
-      {
-        name: "Orders",
-        key: "orders",
-        collapse: [
-          {
-            name: "Order List",
-            key: "order-list",
-            route: "/ecommerce/orders/order-list",
-            component: <OrderList />,
-          },
-          {
-            name: "Order Details",
-            key: "order-details",
-            route: "/ecommerce/orders/order-details",
-            component: <OrderDetails />,
-          },
-        ],
       },
     ],
   },

@@ -79,7 +79,7 @@ function SalesByCountry() {
                 },
                 {
                   name: "China",
-                  latLng: [22.320178999475512, 114.17161225541399],
+                  latLng: [22.320178999475512, -114.17161225541399],
                 },
               ]}
               regionStyle={{

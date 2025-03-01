@@ -16,11 +16,8 @@ import MDButton from "components/MDButton";
 
 // Material Dashboard 3 PRO React examples
 import GradientLineChart from "examples/Charts/LineCharts/GradientLineChart";
-import VerticalBarChart from "examples/Charts/BarCharts/VerticalBarChart";
 import MixedChart from "examples/Charts/MixedChart";
 import BubbleChart from "examples/Charts/BubbleChart";
-import RadarChart from "examples/Charts/RadarChart";
-import PolarChart from "examples/Charts/PolarChart";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -37,14 +34,10 @@ import MiniInfoCard from "examples/Cards/InfoCards/MiniInfoCard";
 import ControllerCard from "examples/Cards/ControllerCard";
 import Calendar from "examples/Calendar";
 import CategoriesList from "examples/Lists/CategoriesList";
-import PieChart from "examples/Charts/PieChart";
 import DefaultDoughnutChart from "examples/Charts/DoughnutCharts/DefaultDoughnutChart";
-import radarChartData from "layouts/pages/charts/data/radarChartData";
-import polarChartData from "layouts/pages/charts/data/polarChartData";
 import mixedChartData from "layouts/pages/charts/data/mixedChartData";
 import bubbleChartData from "layouts/pages/charts/data/bubbleChartData";
 import gradientLineChartData from "layouts/pages/charts/data/gradientLineChartData";
-import verticalBarChartData from "layouts/pages/charts/data/verticalBarChartData";
 import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
 
 

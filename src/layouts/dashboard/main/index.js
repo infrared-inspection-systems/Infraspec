@@ -28,7 +28,7 @@ import booking2 from "assets/images/products/product-2-min.jpg";
 import booking3 from "assets/images/products/product-3-min.jpg";
 
 function Analytics() {
-    const {sales, tasks} = reportsLineChartData;
+    const {tasks} = reportsLineChartData;
 
     // Action buttons for the BookingCard
     const actionButtons = (

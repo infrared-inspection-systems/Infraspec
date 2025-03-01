@@ -475,7 +475,6 @@ function Widgets() {
                   editable
                 />
               ),
-              [calendarEventsData]
             )}
           </Grid>
           <Grid item xs={12} lg={3}>

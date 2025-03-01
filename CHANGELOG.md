@@ -21,7 +21,7 @@
 
 ## [2.1.0] 2022-02-14
 
-- TypeScript version of the product is available: [Material Dashboard 3 PRO React TS](https://www.creative-tim.com/product/material-dashboard-2-pro-react-ts)
+- TypeScript version of the product is available: [Material Dashboard 3 PRO React TS](sytis/product/material-dashboard-2-pro-react-ts)
 
 ### Bug fixing
 

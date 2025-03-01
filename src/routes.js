@@ -3,8 +3,8 @@
 * Material Dashboard 3 PRO React - v2.3.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-pro-react
-* Copyright 2024 Infraspec (https://www.creative-tim.com)
+* Product Page: sytis/product/material-dashboard-pro-react
+* Copyright 2024 Infraspec (sytis)
 
 Coded by www.creative-tim.com
 
@@ -296,22 +296,22 @@ const routes = [
           {
             name: "Overview",
             key: "overview",
-            href: "https://www.creative-tim.com/learning-lab/react/overview/material-dashboard/",
+            href: "sytis/learning-lab/react/overview/material-dashboard/",
           },
           {
             name: "License",
             key: "license",
-            href: "https://www.creative-tim.com/learning-lab/react/license/material-dashboard/",
+            href: "sytis/learning-lab/react/license/material-dashboard/",
           },
           {
             name: "Quick Start",
             key: "quick-start",
-            href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-dashboard/",
+            href: "sytis/learning-lab/react/quick-start/material-dashboard/",
           },
           {
             name: "Build Tools",
             key: "build-tools",
-            href: "https://www.creative-tim.com/learning-lab/react/build-tools/material-dashboard/",
+            href: "sytis/learning-lab/react/build-tools/material-dashboard/",
           },
         ],
       },
@@ -322,37 +322,37 @@ const routes = [
           {
             name: "Colors",
             key: "colors",
-            href: "https://www.creative-tim.com/learning-lab/react/colors/material-dashboard/",
+            href: "sytis/learning-lab/react/colors/material-dashboard/",
           },
           {
             name: "Grid",
             key: "grid",
-            href: "https://www.creative-tim.com/learning-lab/react/grid/material-dashboard/",
+            href: "sytis/learning-lab/react/grid/material-dashboard/",
           },
           {
             name: "Typography",
             key: "base-typography",
-            href: "https://www.creative-tim.com/learning-lab/react/base-typography/material-dashboard/",
+            href: "sytis/learning-lab/react/base-typography/material-dashboard/",
           },
           {
             name: "Borders",
             key: "borders",
-            href: "https://www.creative-tim.com/learning-lab/react/borders/material-dashboard/",
+            href: "sytis/learning-lab/react/borders/material-dashboard/",
           },
           {
             name: "Box Shadows",
             key: "box-shadows",
-            href: "https://www.creative-tim.com/learning-lab/react/box-shadows/material-dashboard/",
+            href: "sytis/learning-lab/react/box-shadows/material-dashboard/",
           },
           {
             name: "Functions",
             key: "functions",
-            href: "https://www.creative-tim.com/learning-lab/react/functions/material-dashboard/",
+            href: "sytis/learning-lab/react/functions/material-dashboard/",
           },
           {
             name: "Routing System",
             key: "routing-system",
-            href: "https://www.creative-tim.com/learning-lab/react/routing-system/material-dashboard/",
+            href: "sytis/learning-lab/react/routing-system/material-dashboard/",
           },
         ],
       },
@@ -367,77 +367,77 @@ const routes = [
       {
         name: "Alerts",
         key: "alerts",
-        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-dashboard/",
+        href: "sytis/learning-lab/react/alerts/material-dashboard/",
       },
       {
         name: "Avatar",
         key: "avatar",
-        href: "https://www.creative-tim.com/learning-lab/react/avatar/material-dashboard/",
+        href: "sytis/learning-lab/react/avatar/material-dashboard/",
       },
       {
         name: "Badge",
         key: "badge",
-        href: "https://www.creative-tim.com/learning-lab/react/badge/material-dashboard/",
+        href: "sytis/learning-lab/react/badge/material-dashboard/",
       },
       {
         name: "Badge Dot",
         key: "badge-dot",
-        href: "https://www.creative-tim.com/learning-lab/react/badge-dot/material-dashboard/",
+        href: "sytis/learning-lab/react/badge-dot/material-dashboard/",
       },
       {
         name: "Box",
         key: "box",
-        href: "https://www.creative-tim.com/learning-lab/react/box/material-dashboard/",
+        href: "sytis/learning-lab/react/box/material-dashboard/",
       },
       {
         name: "Buttons",
         key: "buttons",
-        href: "https://www.creative-tim.com/learning-lab/react/buttons/material-dashboard/",
+        href: "sytis/learning-lab/react/buttons/material-dashboard/",
       },
       {
         name: "Date Picker",
         key: "date-picker",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-dashboard/",
+        href: "sytis/learning-lab/react/datepicker/material-dashboard/",
       },
       {
         name: "Dropzone",
         key: "dropzone",
-        href: "https://www.creative-tim.com/learning-lab/react/dropzone/material-dashboard/",
+        href: "sytis/learning-lab/react/dropzone/material-dashboard/",
       },
       {
         name: "Editor",
         key: "editor",
-        href: "https://www.creative-tim.com/learning-lab/react/quill/material-dashboard/",
+        href: "sytis/learning-lab/react/quill/material-dashboard/",
       },
       {
         name: "Input",
         key: "input",
-        href: "https://www.creative-tim.com/learning-lab/react/input/material-dashboard/",
+        href: "sytis/learning-lab/react/input/material-dashboard/",
       },
       {
         name: "Pagination",
         key: "pagination",
-        href: "https://www.creative-tim.com/learning-lab/react/pagination/material-dashboard/",
+        href: "sytis/learning-lab/react/pagination/material-dashboard/",
       },
       {
         name: "Progress",
         key: "progress",
-        href: "https://www.creative-tim.com/learning-lab/react/progress/material-dashboard/",
+        href: "sytis/learning-lab/react/progress/material-dashboard/",
       },
       {
         name: "Snackbar",
         key: "snackbar",
-        href: "https://www.creative-tim.com/learning-lab/react/snackbar/material-dashboard/",
+        href: "sytis/learning-lab/react/snackbar/material-dashboard/",
       },
       {
         name: "Social Button",
         key: "social-button",
-        href: "https://www.creative-tim.com/learning-lab/react/social-buttons/material-dashboard/",
+        href: "sytis/learning-lab/react/social-buttons/material-dashboard/",
       },
       {
         name: "Typography",
         key: "typography",
-        href: "https://www.creative-tim.com/learning-lab/react/typography/material-dashboard/",
+        href: "sytis/learning-lab/react/typography/material-dashboard/",
       },
     ],
   },

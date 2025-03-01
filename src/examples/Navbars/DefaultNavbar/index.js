@@ -4,8 +4,8 @@
 * Material Dashboard 3 PRO React TS - v1.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-2-pro-react-ts
-* Copyright 2022 Infraspec (https://www.creative-tim.com)
+* Product Page: sytis/product/material-dashboard-2-pro-react-ts
+* Copyright 2022 Infraspec (sytis)
 
 Coded by www.creative-tim.com
 

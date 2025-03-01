@@ -3,8 +3,8 @@
 * Material Dashboard 3 PRO React - v2.3.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-pro-react
-* Copyright 2024 Infraspec (https://www.creative-tim.com)
+* Product Page: sytis/product/material-dashboard-pro-react
+* Copyright 2024 Infraspec (sytis)
 
 Coded by www.creative-tim.com
 
@@ -50,14 +50,14 @@ function Footer({ light }) {
             color={light ? "white" : "text"}
             fontSize={size.sm}
           >
-            &copy; {new Date().getFullYear()}, made with
+            &copy; {new Date().getFullYear()},
             <MDBox fontSize={size.md} color={light ? "white" : "dark"} mb={-0.5} mx={0.25}>
               <Icon color="inherit" fontSize="inherit">
                 favorite
               </Icon>
             </MDBox>
             by
-            <Link href="https://www.creative-tim.com/" target="_blank">
+            <Link href="https://www.systis.com/" target="_blank">
               <MDTypography variant="button" fontWeight="medium" color={light ? "white" : "dark"}>
                 &nbsp;Infraspec&nbsp;
               </MDTypography>
@@ -82,7 +82,7 @@ function Footer({ light }) {
             })}
           >
             <MDBox component="li" pr={2} lineHeight={1}>
-              <Link href="https://www.creative-tim.com/" target="_blank">
+              <Link href="sytis/" target="_blank">
                 <MDTypography
                   variant="button"
                   fontWeight="regular"
@@ -93,7 +93,7 @@ function Footer({ light }) {
               </Link>
             </MDBox>
             <MDBox component="li" px={2} lineHeight={1}>
-              <Link href="https://www.creative-tim.com/presentation" target="_blank">
+              <Link href="sytis/presentation" target="_blank">
                 <MDTypography
                   variant="button"
                   fontWeight="regular"
@@ -104,7 +104,7 @@ function Footer({ light }) {
               </Link>
             </MDBox>
             <MDBox component="li" px={2} lineHeight={1}>
-              <Link href="https://www.creative-tim.com/blog" target="_blank">
+              <Link href="sytis/blog" target="_blank">
                 <MDTypography
                   variant="button"
                   fontWeight="regular"
@@ -115,7 +115,7 @@ function Footer({ light }) {
               </Link>
             </MDBox>
             <MDBox component="li" pl={2} lineHeight={1}>
-              <Link href="https://www.creative-tim.com/license" target="_blank">
+              <Link href="sytis/license" target="_blank">
                 <MDTypography
                   variant="button"
                   fontWeight="regular"

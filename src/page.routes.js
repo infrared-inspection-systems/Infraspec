@@ -3,8 +3,8 @@
 * Material Dashboard 3 PRO React - v2.3.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-pro-react
-* Copyright 2024 Infraspec (https://www.creative-tim.com)
+* Product Page: sytis/product/material-dashboard-pro-react
+* Copyright 2024 Infraspec (sytis)
 
 Coded by www.creative-tim.com
 
@@ -239,25 +239,25 @@ const pageRoutes = [
     collapse: [
       {
         name: "getting started",
-        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-dashboard/",
+        href: "sytis/learning-lab/react/quick-start/material-dashboard/",
         description: "All about overview, quick start, license and contents",
         icon: <Icon>article</Icon>,
       },
       {
         name: "foundation",
-        href: "https://www.creative-tim.com/learning-lab/react/colors/material-dashboard/",
+        href: "sytis/learning-lab/react/colors/material-dashboard/",
         description: "See our colors, icons and typography",
         icon: <Icon>grading</Icon>,
       },
       {
         name: "components",
-        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-dashboard/",
+        href: "sytis/learning-lab/react/alerts/material-dashboard/",
         description: "Explore our City of fully designed components",
         icon: <Icon>apps</Icon>,
       },
       {
         name: "plugins",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-dashboard/",
+        href: "sytis/learning-lab/react/datepicker/material-dashboard/",
         description: "Check how you can integrate our plugins",
         icon: <Icon>extension</Icon>,
       },

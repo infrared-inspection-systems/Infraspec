@@ -3,8 +3,8 @@
 * NextJS Material Dashboard 3 PRO - v2.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/nextjs-material-dashboard-pro
-* Copyright 2022 Infraspec (https://www.creative-tim.com)
+* Product Page: sytis/product/nextjs-material-dashboard-pro
+* Copyright 2022 Infraspec (sytis)
 
 Coded by www.creative-tim.com
 

@@ -157,7 +157,7 @@ function Configurator() {
         <MDBox>
           <MDTypography variant="h5">UI Configuration</MDTypography>
           <MDTypography variant="body2" color="text">
-            See our dashboard options.
+            dashboard options.
           </MDTypography>
         </MDBox>
 

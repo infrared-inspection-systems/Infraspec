@@ -156,3 +156,30 @@ npm install material-design-icons --save
 Then add the following to styles.css:
 
 @import '~material-design-icons/iconfont/material-icons.css';
+
+System Architecture
+
+```mermaid
+flowchart LR
+
+A[front-end <br/> react] -->
+B(back-end <br/> nest.js )
+B --> D[Open VPN ECS Task]
+D --> |Creates connections with skids to receive streams, alerts, and API's from cameras and NVR | G[Skid Servers]
+G --> I[Skid 1<br/>Camera + NVR]
+G --> J[Skid 2<br/>Camera + NVR]
+G --> K[Skid 3<br/>Camera + NVR]
+D --> H[AWS S3 <br/> Open VPN Configs]
+B --> E[Go2RTC Service ECS Task]
+B --> f[PostgreSQL Database]
+E --> L[Interact with NVR<br/>for camera streams]
+
+subgraph PrivateCloud [AWS Private Cloud]
+    B
+    D
+    E
+    f
+    H
+end
+
+```

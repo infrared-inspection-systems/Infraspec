@@ -63,7 +63,6 @@ import horizontalBarChartData from "layouts/dashboards/sales/data/horizontalBarC
 import salesTableData from "layouts/dashboards/sales/data/salesTableData";
 import dataTableData from "layouts/dashboards/sales/data/dataTableData";
 import defaultDoughnutChartData from "layouts/pages/charts/data/defaultDoughnutChartData";
-import pieChartData from "layouts/pages/charts/data/pieChartData";
 
 function Widgets() {
   // DefaultStatisticsCard state for the dropdown value

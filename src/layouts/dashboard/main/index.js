@@ -2,11 +2,6 @@
 import Grid from "@mui/material/Grid";
 import Tooltip from "@mui/material/Tooltip";
 import Icon from "@mui/material/Icon";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import TextField from "@mui/material/TextField";
 import {} from "@mui/material";
 
 // Material Dashboard 3 PRO React components
@@ -19,16 +14,9 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
 import ReportsLineChart from "examples/Charts/LineCharts/ReportsLineChart";
-import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
 import BookingCard from "examples/Cards/BookingCard";
-import VerticalBarChart from "examples/Charts/BarCharts/VerticalBarChart";
 import MixedChart from "examples/Charts/MixedChart";
 import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCard";
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
-import MasterCard from "examples/Cards/MasterCard";
-
-// Anaytics dashboard components
-import SalesByCountry from "layouts/dashboards/analytics/components/SalesByCountry";
 
 // Data
 import reportsBarChartData from "layouts/dashboards/analytics/data/reportsBarChartData";
